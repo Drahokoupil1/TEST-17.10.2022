@@ -1,0 +1,95 @@
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	line-height: 1.6;
+	margin: 0;
+	min-height: 100vh;
+}
+.prvni {
+background-color: aqua;
+}
+.druhy {
+	background-color: rgb(66, 102, 0);
+	}
+	.treti {
+		background-color: rgb(76, 0, 255);
+		}
+		.ctvrty {
+			background-color: rgb(255, 230, 0);
+			}
+			.paty {
+				background-color: rgb(255, 0, 0);
+				}
+				.sesty {
+					background-color: rgb(0, 255, 13);
+					}
+					.sedmy {
+						background-color: rgb(255, 123, 0);
+						}
+						.osmy {
+							background-color: rgb(183, 0, 255);
+							}
+							.devaty {
+								background-color: rgb(102, 255, 0);
+								}
+								.desaty {
+									background-color: rgb(0, 68, 255);
+									}
+									.jedenacty {
+										background-color: rgb(223, 125, 95);
+										}
+										.dvanacty {
+											background-color: rgb(199, 81, 173);
+											}
+											.trinacty {
+												background-color: rgb(176, 238, 238);
+												}
+												.ctrnacty {
+													background-color: rgb(5, 104, 58);
+													}
+.header {
+	padding-top: .5em;
+	padding-bottom: .5em;
+	border-radius: 5px;
+}
+@media (min-width: 769px) {
+	.body {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 80%;
+		margin: 0 auto;
+		max-width: 1150px;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+	
+.table th, .table td { 
+	text-align: left; 
+	padding: 0.25em;
+  }
+  
+  .table tr { 
+	border-bottom: 1px solid #DDD;
+  }
+}
+  @media screen and (max-width: 800px) {
+	tr { 
+	  display: flex; 
+	  flex-direction: row;
+	  flex-wrap: wrap;
+	  margin: 0.5em 0;
+	  border: 1px solid rgba(3,3,3,0.2);
+	}
+	td, th {
+	  flex: 1 1 150px;
+	  border: 0.5px solid rgba(3,3,3,0.2);
+	}
+}
+
+
+
